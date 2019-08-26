@@ -1,0 +1,76 @@
+@import "../../node_modules/fullpage.js/dist/fullpage.css";
+@import "../fonts/GothamPro-Light.ttf";
+@import "../fonts/GothamPro-Medium.ttf";
+.first-page {
+	background-image: url(../img/bg1.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	.first-page_title {
+			color: #0d319c;
+			text-align: left;
+			font-size: 50px;
+			font-family: Gotham Pro, Sans Serif;
+			font-weight: 400;
+			width: 80%;
+			margin: 0 auto;
+			margin-bottom: 480px;
+	}
+
+
+}
+.second-page {
+	background-image: url(../img/bg2.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	.second-page_title {
+			color: white;
+			text-align: center;
+			margin-bottom: 250px;
+			font-size: 60px;
+			font-family: Gotham Pro, Sans Serif;
+			font-weight: 300;
+	}
+
+
+}
+.third-page {
+	background-image: url(../img/bg3.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	.container-scheme {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 90%;
+		position: relative;
+		height: 100%;
+		margin: 0 auto;
+		.title-scheme {
+			color: white;
+			font-size: 30px;
+			font-family: Gotham Pro, Sans Serif;
+			font-weight: 400;
+		}
+		.img-scheme {
+
+			width: 100%;
+			height: auto;
+			
+		}
+	}
+
+}
+.img-next {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+	width: 12px;
+	height: 12px;
+	background-color: white;
+}
+#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span {
+	background-color: #f78b1f;
+	margin: -2px 0 0 -2px;
+}
